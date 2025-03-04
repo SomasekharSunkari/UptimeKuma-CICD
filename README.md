@@ -6,10 +6,10 @@
 # CI-CD Deployment with Devsecops with testing and deploying the Applcation into Docker Containers 
 ![uptime-01](https://github.com/user-attachments/assets/506ab76a-678d-4f6a-af9e-35ee6623d06b)
 
-#Pipeline Overview
+# Pipeline Overview
 ![autime-15](https://github.com/user-attachments/assets/633ec5f7-6fcb-40b5-9ed2-b84a0313b0aa)
 
-#Dependency Check using OWASP dependecy Tool
+# Dependency Check using OWASP dependecy Tool
 ![autime-12](https://github.com/user-attachments/assets/59ba7468-2722-4097-b278-f5fec45405c9)
 
 # CI-CD Pipeline 
@@ -28,7 +28,7 @@
 ![auptime-02](https://github.com/user-attachments/assets/4e656e6d-fea4-4aa7-9ac5-9d976b70693a)
 
 
-#Final Deployment using Docker Compose
+# Final Deployment using Docker Compose
 ![auptime01](https://github.com/user-attachments/assets/0d2151f0-cc19-4142-8faf-6b0932ebf54a)
 
 
