@@ -15,7 +15,7 @@ The frontend code builds into "dist" directory. The server (express.js) exposes 
 - Bootstrap
 - SQLite
 
-## Directories
+## Directories(To Top)
 
 - config (dev config files)
 - data (App data)
