@@ -25,7 +25,7 @@ updates:
     commit-message:
       prefix: "deps"               # PR commit message prefix
       include: "scope"             # include dependency name in commit
-    open-pull-requests-limit: 0   # max PRs opened at a time
+    open-pull-requests-limit: 3   # max PRs opened at a time
     labels:
       - "dependencies"             # label PRs
       - "automated"
