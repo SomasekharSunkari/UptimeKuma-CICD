@@ -1,0 +1,41 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+# version: 2
+# updates:
+#   - package-ecosystem: "" # See documentation for possible values
+#     directory: "/" # Location of package manifests
+#     schedule:
+#       interval: "weekly"
+
+
+# Dependabot configuration file
+version: 2
+updates:
+  # 1. Dependency updates for npm (Node.js)
+  - package-ecosystem: "npm"       # npm for Node.js projects
+    directory: "/"                 # location of package.json
+    schedule:
+      interval: "daily"            # check for updates daily
+      time: "04:00"                # optional: check at 4 AM UTC
+    target-branch: "develop-check"
+    # optional: check every Monday (if weekly)
+    commit-message:
+      prefix: "deps"               # PR commit message prefix
+      include: "scope"             # include dependency name in commit
+    open-pull-requests-limit: 0   # max PRs opened at a time
+    labels:
+      - "dependencies"             # label PRs
+      - "automated"
+    # ignore:
+    #   - dependency-name: "express"
+    #     versions: ["<5.0.0"]      
+    #   - dependency-name: "lodash"
+    #     versions: ["<4.17.23"]
+    # security updates
+    allow:
+      - dependency-type: "all"     # includes direct and dev dependencies
+      - dependency-type: "direct"
+      - dependency-type: "indirect"
